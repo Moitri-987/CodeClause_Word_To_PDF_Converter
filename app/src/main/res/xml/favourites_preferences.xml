@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:title="@string/text_to_pdf"
+        android:key="@string/text_to_pdf"/>
+
+    <CheckBoxPreference
+        android:title="@string/qr_barcode_pdf"
+        android:key="@string/qr_barcode_pdf"/>
+
+
+    <CheckBoxPreference
+        android:title="@string/merge_pdf"
+        android:key="@string/merge_pdf"/>
+
+</PreferenceScreen>
